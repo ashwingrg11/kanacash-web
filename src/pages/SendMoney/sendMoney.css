@@ -1,0 +1,22 @@
+/* .send-money-process-list {
+  display: flex;
+  flex-direction: row;
+}
+.send-money-containers {
+  margin: "20px 250px";
+}
+
+@media (max-width: 1100px) {
+  .send-money-process-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .send-money-containers {
+    height: "107vh";
+    margin: "20px 150px";
+  }
+} */

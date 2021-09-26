@@ -1,0 +1,296 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CongratulationPage /> CongratulationPage renders correctly 1`] = `
+Array [
+  <header
+    className="header-main"
+  >
+    <div
+      className="container"
+    >
+      <nav
+        className="navbar navbar-expand-lg navbar-light bg-light"
+      >
+        <div
+          className="navbar-brand"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+          <img
+            alt="logo"
+            className="logo"
+            src=""
+          />
+        </div>
+        <button
+          aria-controls="basic-navbar-nav"
+          aria-label="Toggle navigation"
+          className="navbar-toggler collapsed"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="navbar-toggler-icon"
+          />
+        </button>
+        <div
+          aria-expanded={null}
+          className="navbar-collapse collapse"
+          id="basic-navbar-nav"
+        >
+          <div
+            className="ml-md-auto navbar-nav"
+            onKeyDown={[Function]}
+          >
+            <span
+              className="btn btn-primary btn-theme btn-primary-border"
+              onClick={[Function]}
+            >
+              Sign in
+            </span>
+            <button
+              className="btn btn-primary btn-theme btn-primary-theme"
+              onClick={[Function]}
+            >
+              Sign up
+            </button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>,
+  <div
+    className="shadow-line"
+  />,
+  <section
+    className="front-background-no-bg"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-6 offset-md-3 d-flex justify-content-center mt-5 mb-4 col"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="d-flex  flex-column align-items-center justify-align-center col"
+            >
+              <canvas
+                height="400px"
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "margin": "0 auto",
+                    "pointerEvents": "none",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "zIndex": 2,
+                  }
+                }
+                width="300px"
+              />
+               
+              <img
+                alt="CongratulationImg"
+                className="mt-2"
+                src=""
+              />
+              <div
+                className="mb-1 justify-content-center text-center"
+              >
+                <h2
+                  className="sub-title title-success mb-1"
+                >
+                   
+                  Congratulations!
+                </h2>
+                <p>
+                  Your money transfer is on its way to
+                </p>
+                <span
+                  className="account-title mb-3 d-block"
+                >
+                   
+                </span>
+                <p>
+                   
+                  Please go to your dashboard to view your receipt and other details. We will send you an email with your recipt and notification agter the transaction is delivered
+                </p>
+              </div>
+              <div
+                className="button-group text-center"
+              >
+                <button
+                  className="btn btn-secondary m-2"
+                  onClick={[Function]}
+                >
+                  Go to Dashboard
+                </button>
+                <button
+                  className="btn btn-primary btn-primary-border m-2"
+                >
+                  Notify Beneficary
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>,
+  <footer
+    className="footer-section text-center"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-12"
+        >
+          <div
+            className="foot-nav"
+          >
+            <a
+              aria-current="page"
+              className="link active"
+              href="/"
+              onClick={[Function]}
+              style={Object {}}
+            >
+              Home
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/about-us"
+              onClick={[Function]}
+            >
+              About Us
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/terms-of-service"
+              onClick={[Function]}
+            >
+              Terms
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/privacy-policy"
+              onClick={[Function]}
+            >
+              Privacy Policy
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/copyright"
+              onClick={[Function]}
+            >
+              Copyright
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/contact-us"
+              onClick={[Function]}
+            >
+              Contact
+            </a>
+          </div>
+        </div>
+        <div
+          className="copyright col-sm-12"
+        >
+          <p>
+            © Golden Money Transfer Inc. 2020. All Rights Reserved.
+             
+            <b>
+              Licensed by
+            </b>
+             Department of Financial Institutions, Nevada
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>,
+  <div
+    className="disclaimer text-center"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="policy"
+      >
+         
+        This website uses cookies to ensure you get the best experience on our website, as described in our
+         
+        <span
+          className="btn-link"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+           
+            privacy policy.
+        </span>
+      </div>
+      <div
+        className="policy1"
+      >
+        This website uses cookies,
+        <span
+          className="btn-link"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+           
+            learn more.
+        </span>
+      </div>
+      <div
+        className="buttonDiv"
+      >
+        <button
+          className="btn-outline-warning"
+          onClick={[Function]}
+          style={
+            Object {
+              "border": "none",
+              "borderRadius": "50px",
+              "color": "black",
+              "padding": "5px 15px",
+            }
+          }
+        >
+          Accept
+        </button>
+      </div>
+    </div>
+  </div>,
+]
+`;

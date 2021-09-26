@@ -1,0 +1,42 @@
+.title{
+    @include rhythm(30, 34);
+    font-weight: 700;
+    @include respond-to(small){
+        @include rhythm(36, 42);
+       
+    }
+}
+.sub-title{
+    @include rhythm(20, 26);
+    font-weight: 400;
+    @include respond-to(small){
+        @include rhythm(30, 36);
+     
+    }
+}
+.subhead-title{
+    @include rhythm(18, 22);
+    font-weight: 700;
+    margin-bottom: 10px;
+    color:$gray
+}
+.title-success{
+    color: $primary-1;
+}
+.activity-title{
+    @include rhythm(18, 22);
+    font-weight: 700;
+    @include respond-to(small){
+        @include rhythm(22, 26);
+     
+    }
+}
+.account-title{
+    @include rhythm(20, 24);
+    font-weight: 700;
+    color:$dark-gray;
+    @include respond-to(small){
+        @include rhythm(24, 28);
+     
+    }
+}

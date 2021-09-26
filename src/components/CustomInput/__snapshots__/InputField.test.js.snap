@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputField /> InputField renders correctly 1`] = `
+<input
+  className="sc-AxjAm gTCzCw"
+  onChange={[Function]}
+  width="20rem"
+/>
+`;

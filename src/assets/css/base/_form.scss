@@ -1,0 +1,123 @@
+.theme-form{
+    .form-group{
+        margin-bottom: 20px;
+    }
+    label{
+        color: $gray;
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 7px;
+    }
+    input{
+        background:white;
+        color:$dark-gray;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        @include border-radius(3px);
+        &.form-control{
+            background:none;
+            height: 45px;
+            line-height: 45px;
+            padding:13px 15px;
+            border-color:#ced4da;
+            &:focus{
+                border-color:#ced4da;
+                box-shadow: none;
+            }
+        }
+        &::placeholder{
+            color:$carbon;
+        }
+    }
+    select{
+        &.form-control{
+            background-color:white;
+            background-image:url('../..//images/icons/select-arrow.svg');
+            background-position:  calc(100% - 15px) /* 0px from the right */
+            calc(100% - 15px) /* 10% from the bottom */  ;
+            background-repeat: no-repeat;
+            background-size:15px;
+            height: 45px;
+            padding:0 15px;
+            border-color:#ced4da;
+            -moz-appearance:none; /* Firefox */
+            -webkit-appearance:none; /* Safari and Chrome */
+            appearance:none;
+            &:focus{
+                border-color:#ced4da;
+                box-shadow: none;
+            }
+        }
+       
+    }
+    .card{
+        border:none;
+        @include border-radius(3px);
+        @include box-shadow(0 0 10px rgba(black,0.2));
+        .card-body{
+            padding:15px 20px 20px 20px;
+            .sub-title{
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+//custom checkbox
+.checkbox-wrap {
+    position: relative;
+    label {
+        position: relative;
+        display: block;
+        &:before {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin: 4px;
+            width: 24px;
+            height: 24px;
+            transition: transform 0.28s ease;
+            border-radius: 3px;
+            border: 1px solid $carbon;
+        }
+        &:after {
+            content: '';
+            display: block;
+            width: 18px;
+            height: 8px;
+            border-bottom: 2px solid white;
+            border-left: 2px solid white;
+            transform: rotate(-45deg) scale(0);
+            -webkit-transform: rotate(-45deg) scale(0);
+            transition: transform ease 0.25s;
+            -webkit-transition: transform ease 0.25s;
+            position: absolute;
+            top: 10px;
+            right: 6px;
+        }
+    }
+    input[type="checkbox"] {
+        width: auto;
+        opacity: 0.00000001;
+        position: absolute;
+        left: 0;
+        margin-left: -20px;
+        &:checked ~ label{
+            &:before {
+                content: "";
+                border: transparent;
+                background: $primary-1;
+            }
+            &:after {
+                transform: rotate(-45deg) scale(1);
+                -webkit-transform: rotate(-45deg) scale(1);
+            }
+        }
+        &:focus + label::before {
+            outline: 0;
+        }
+    }
+   
+}

@@ -1,0 +1,670 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BeneficiaryDetails /> BeneficiaryDetails renders correctly 1`] = `
+Array [
+  <header
+    className="header-main"
+  >
+    <div
+      className="container"
+    >
+      <nav
+        className="navbar navbar-expand-lg navbar-light bg-light"
+      >
+        <div
+          className="navbar-brand"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+          <img
+            alt="logo"
+            className="logo"
+            src=""
+          />
+        </div>
+        <button
+          aria-controls="basic-navbar-nav"
+          aria-label="Toggle navigation"
+          className="navbar-toggler collapsed"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="navbar-toggler-icon"
+          />
+        </button>
+        <div
+          aria-expanded={null}
+          className="navbar-collapse collapse"
+          id="basic-navbar-nav"
+        >
+          <div
+            className="ml-md-auto navbar-nav"
+            onKeyDown={[Function]}
+          >
+            <span
+              className="btn btn-primary btn-theme btn-primary-border"
+              onClick={[Function]}
+            >
+              Sign in
+            </span>
+            <button
+              className="btn btn-primary btn-theme btn-primary-theme"
+              onClick={[Function]}
+            >
+              Sign up
+            </button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>,
+  <div
+    className="shadow-line"
+  />,
+  <section
+    className="theme-inner"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="transaction-steps row"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="d-flex justify-content-left align-items-center"
+          >
+            <div
+              className="green-block payment-step"
+            >
+               
+              <img
+                alt="paymentDetailGreen"
+                src=""
+              />
+              <span
+                className="steps-title"
+              >
+                Payment Details
+              </span>
+               
+            </div>
+          </div>
+        </div>
+        <div
+          className="col"
+        >
+          <div
+            className="d-flex justify-content-left align-items-center"
+          >
+            <div
+              className="gray-block sender-step"
+            >
+               
+              <img
+                alt="SenderDetailGrey"
+                src=""
+              />
+              <span
+                className="steps-title"
+              >
+                Sender Details
+              </span>
+            </div>
+             
+          </div>
+        </div>
+        <div
+          className="col"
+        >
+          <div
+            className="d-flex justify-content-left align-items-center"
+          >
+             
+            <div
+              className="gray-block beneficiary-step"
+            >
+              <img
+                alt="BeneficiaryDetailGrey"
+                src=""
+              />
+              <span
+                className="steps-title"
+              >
+                Beneficiary Details
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col"
+        >
+          <div
+            className="d-flex justify-content-left align-items-center"
+          >
+             
+            <div
+              className="gray-block pay-info-step"
+            >
+              <img
+                alt="paymentInfoGrey"
+                src=""
+              />
+              <span
+                className="steps-title"
+              >
+                Payment Information
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col"
+        >
+          <div
+            className="d-flex justify-content-left align-items-center"
+          >
+            <div
+              className="gray-block review-step last-step"
+            >
+              <img
+                alt="ReviewDetailGrey"
+                src=""
+              />
+              <span
+                className="steps-title"
+              >
+                Review Details
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="steps-content-block col"
+        >
+          <h2
+            className="sub-title text-md-center text-lg-left"
+          >
+            Beneficiary details
+          </h2>
+          <div
+            className="select-special row"
+          >
+            <div
+              className="pr-lg-0 mb-md-5 mb-lg-0 col-lg-6 col-md-8 col-sm-12 offset-lg-0 offset-md-2"
+            >
+              <div
+                className="transaction-card"
+              >
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col"
+                  >
+                    <div
+                      className="payment-block-wrap"
+                    >
+                      <div
+                        className="card"
+                      >
+                        <div
+                          className="info info-select"
+                        >
+                          <img
+                            alt="SelectBeneficairyIcon"
+                            src=""
+                          />
+                          <select
+                            className="form-control"
+                            id="beneficiary"
+                            onChange={[Function]}
+                            style={
+                              Object {
+                                "height": "50px",
+                                "paddingLeft": "5px",
+                              }
+                            }
+                          >
+                            <option
+                              style={
+                                Object {
+                                  "height": "30px",
+                                }
+                              }
+                              value=""
+                            >
+                              Select Beneficary
+                            </option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div
+                  className="add-section in-steps row"
+                >
+                  <div
+                    className="add-button-block col"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "cursor": "pointer",
+                      }
+                    }
+                  >
+                    <img
+                      alt="plusCircle"
+                      src=""
+                    />
+                     Add the Beneficiary
+                  </div>
+                </div>
+                <div
+                  className="button-group"
+                >
+                  <button
+                    className="btn btn-secondary"
+                    onClick={[Function]}
+                  >
+                     
+                    Continue to next Step
+                  </button>
+                  <button
+                    className="btn btn-back-arrow float-right"
+                    onClick={[Function]}
+                  >
+                    <img
+                      alt="BackArrow"
+                      src=""
+                    />
+                    Back
+                     
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              className="sumary-bar col-lg-5 col-md-8 col-sm-12 offset-lg-1 offset-md-2"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col"
+                >
+                  <div
+                    className="summary-card card"
+                  >
+                     
+                    <h2
+                      className="sub-title"
+                    >
+                      Summary
+                    </h2>
+                     
+                    <p
+                      className="small"
+                    >
+                       Sending money to
+                    </p>
+                     
+                    <div
+                      className="send-country"
+                    >
+                       
+                      <span
+                        className="country-flag"
+                      >
+                        <img
+                          alt="flag"
+                          src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/flags/4x3/undefined.svg"
+                        />
+                      </span>
+                       
+                      <span
+                        className="sub-title"
+                      />
+                       
+                    </div>
+                    <div>
+                      <hr
+                        style={
+                          Object {
+                            "borderColor": "#212529",
+                          }
+                        }
+                      />
+                    </div>
+                    <div
+                      className="row"
+                    >
+                      <div
+                        className="col"
+                      >
+                        <div
+                          className="mt-3 row"
+                        >
+                          <div
+                            className="col"
+                          >
+                            Send Amount
+                             
+                            <span
+                              className="btn-link"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "color": "#1077BE",
+                                  "cursor": "pointer",
+                                }
+                              }
+                            >
+                              edit
+                            </span>
+                          </div>
+                          <div
+                            className="d-flex justify-content-end col"
+                            style={
+                              Object {
+                                "fontWeight": "bold",
+                              }
+                            }
+                          >
+                            USD 
+                          </div>
+                        </div>
+                        <div
+                          className="mt-3 row"
+                        >
+                          <div
+                            className="col"
+                          >
+                            Transaction Fee
+                          </div>
+                          <div
+                            className="d-flex justify-content-end col"
+                            style={
+                              Object {
+                                "fontWeight": "bold",
+                              }
+                            }
+                          >
+                            USD 
+                          </div>
+                        </div>
+                        <div
+                          className="mt-3 row"
+                        >
+                          <div
+                            className="col"
+                          >
+                            Total Amount
+                          </div>
+                          <div
+                            className="d-flex justify-content-end col"
+                            style={
+                              Object {
+                                "color": "#1077BE",
+                                "fontWeight": "bold",
+                              }
+                            }
+                          >
+                            USD
+                             
+                            NaN
+                          </div>
+                        </div>
+                        <div
+                          className="d-flex align-items-center mt-3 xchange-rate row"
+                          style={
+                            Object {
+                              "backgroundColor": "#d1ecf1",
+                              "height": "40px",
+                            }
+                          }
+                        >
+                          <div
+                            className="col"
+                          >
+                            Exchange Rate
+                          </div>
+                          <div
+                            className="d-flex justify-content-end col"
+                            style={
+                              Object {
+                                "fontWeight": "bold",
+                              }
+                            }
+                          >
+                            USD 1 =
+                             
+                             
+                          </div>
+                        </div>
+                        <div
+                          className="mt-3 row"
+                        >
+                          <div
+                            className="col"
+                          >
+                            Receive Amount
+                          </div>
+                          <div
+                            className="d-flex justify-content-end col"
+                            style={
+                              Object {
+                                "fontWeight": "bold",
+                              }
+                            }
+                          >
+                             
+                          </div>
+                        </div>
+                        <div
+                          className="mt-3 row"
+                        >
+                          <div
+                            className="col"
+                          >
+                            Payment Type
+                          </div>
+                          <div
+                            className="d-flex justify-content-end col"
+                            style={
+                              Object {
+                                "fontWeight": "bold",
+                              }
+                            }
+                          >
+                            TBD
+                          </div>
+                        </div>
+                        <div
+                          className="mt-3 row"
+                        >
+                          <div
+                            className="col"
+                          >
+                            Receive Type
+                          </div>
+                          <div
+                            className="d-flex justify-content-end col"
+                            style={
+                              Object {
+                                "fontWeight": "bold",
+                              }
+                            }
+                          >
+                            TBD
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>,
+  <footer
+    className="footer-section text-center"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-12"
+        >
+          <div
+            className="foot-nav"
+          >
+            <a
+              aria-current="page"
+              className="link active"
+              href="/"
+              onClick={[Function]}
+              style={Object {}}
+            >
+              Home
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/about-us"
+              onClick={[Function]}
+            >
+              About Us
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/terms-of-service"
+              onClick={[Function]}
+            >
+              Terms
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/privacy-policy"
+              onClick={[Function]}
+            >
+              Privacy Policy
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/copyright"
+              onClick={[Function]}
+            >
+              Copyright
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/contact-us"
+              onClick={[Function]}
+            >
+              Contact
+            </a>
+          </div>
+        </div>
+        <div
+          className="copyright col-sm-12"
+        >
+          <p>
+            © Golden Money Transfer Inc. 2020. All Rights Reserved.
+             
+            <b>
+              Licensed by
+            </b>
+             Department of Financial Institutions, Nevada
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>,
+  <div
+    className="disclaimer text-center"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="policy"
+      >
+         
+        This website uses cookies to ensure you get the best experience on our website, as described in our
+         
+        <span
+          className="btn-link"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+           
+            privacy policy.
+        </span>
+      </div>
+      <div
+        className="policy1"
+      >
+        This website uses cookies,
+        <span
+          className="btn-link"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+           
+            learn more.
+        </span>
+      </div>
+      <div
+        className="buttonDiv"
+      >
+        <button
+          className="btn-outline-warning"
+          onClick={[Function]}
+          style={
+            Object {
+              "border": "none",
+              "borderRadius": "50px",
+              "color": "black",
+              "padding": "5px 15px",
+            }
+          }
+        >
+          Accept
+        </button>
+      </div>
+    </div>
+  </div>,
+]
+`;

@@ -1,0 +1,42 @@
+/**
+ * The site’s main page-head can have two different states:
+ *
+ * 1) Regular page-head with no backgrounds or extra treatments; it just
+ *    contains the logo and nav.
+ * 2) Another header with shadow, it just contains the logo and nav.
+ *
+ */
+ .header-main{
+     background: white;
+     padding:20px 0;
+     position: relative;
+     z-index: 3;
+     .bg-light{
+         background:white!important;
+         .navbar-brand{
+             width: 200px;
+             padding:0;
+             img{
+                 max-width:100%;
+             }
+             @include respond-to(small){
+                 width:280px;
+             }
+         }
+     }
+     .navbar{
+         padding:0;
+     }
+     .navbar-nav{
+         .btn{
+             @include respond-to(small){
+                margin-left:20px; 
+             }
+         }
+         .signup-signin{
+             .btn{
+                 margin:0 30px 0 0;
+             }
+         }
+     }
+ }

@@ -1,0 +1,315 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CountryChooser /> CountryChooser renders correctly 1`] = `
+Array [
+  <header
+    className="header-main"
+  >
+    <div
+      className="container"
+    >
+      <nav
+        className="navbar navbar-expand-lg navbar-light bg-light"
+      >
+        <div
+          className="navbar-brand"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+          <img
+            alt="logo"
+            className="logo"
+            src=""
+          />
+        </div>
+        <button
+          aria-controls="basic-navbar-nav"
+          aria-label="Toggle navigation"
+          className="navbar-toggler collapsed"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="navbar-toggler-icon"
+          />
+        </button>
+        <div
+          aria-expanded={null}
+          className="navbar-collapse collapse"
+          id="basic-navbar-nav"
+        >
+          <div
+            className="ml-md-auto navbar-nav"
+            onKeyDown={[Function]}
+          >
+            <span
+              className="btn btn-primary btn-theme btn-primary-border"
+              onClick={[Function]}
+            >
+              Sign in
+            </span>
+            <button
+              className="btn btn-primary btn-theme btn-primary-theme"
+              onClick={[Function]}
+            >
+              Sign up
+            </button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>,
+  <section
+    className="front-background"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="circle-stroke country-circle"
+        >
+          <div
+            className="col"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="text-center p-0 col"
+              >
+                <h2
+                  className="title"
+                >
+                  <img
+                    alt="star-icon"
+                    className="ml-1"
+                    src=""
+                  />
+                  <span
+                    style={
+                      Object {
+                        "color": "#1077BE",
+                      }
+                    }
+                  >
+                     
+                      SEND MONEY ANYWHERE  
+                     
+                  </span>
+                  <img
+                    alt="star-icon"
+                    className="mr-1"
+                    src=""
+                  />
+                </h2>
+                <p
+                  className="tagline"
+                >
+                  We make it possible to send money at lowest fees.
+                </p>
+                <div
+                  className="calculator"
+                >
+                  <div
+                    className="sc-AxjAm jhiTqR"
+                  >
+                    <div
+                      className="sc-AxirZ fpkyRk input-dropdown"
+                    >
+                      <div
+                        className="sc-AxiKw fwFcZp custom-wrap"
+                        onClick={[Function]}
+                      >
+                        <span
+                          className="sc-AxmLO kPXgwU"
+                        >
+                          Send money to
+                        </span>
+                        <div
+                          className="sc-AxgMl fqhLTf"
+                        >
+                          <div
+                            className="selected-country"
+                          >
+                            <input
+                              className="sc-fzoLsD bZwsmY"
+                              onChange={[Function]}
+                              placeholder="Select a country"
+                              value=""
+                            />
+                          </div>
+                          <img
+                            alt="arrow-dwon"
+                            src=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      className="sc-fzozJi gZqjid btn btn-primary btn-theme"
+                      onClick={[Function]}
+                    >
+                      Send
+                    </button>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>,
+  <footer
+    className="footer-section text-center"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-12"
+        >
+          <div
+            className="foot-nav"
+          >
+            <a
+              aria-current="page"
+              className="link active"
+              href="/"
+              onClick={[Function]}
+              style={Object {}}
+            >
+              Home
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/about-us"
+              onClick={[Function]}
+            >
+              About Us
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/terms-of-service"
+              onClick={[Function]}
+            >
+              Terms
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/privacy-policy"
+              onClick={[Function]}
+            >
+              Privacy Policy
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/copyright"
+              onClick={[Function]}
+            >
+              Copyright
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/contact-us"
+              onClick={[Function]}
+            >
+              Contact
+            </a>
+          </div>
+        </div>
+        <div
+          className="copyright col-sm-12"
+        >
+          <p>
+            © Golden Money Transfer Inc. 2020. All Rights Reserved.
+             
+            <b>
+              Licensed by
+            </b>
+             Department of Financial Institutions, Nevada
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>,
+  <div
+    className="disclaimer text-center"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="policy"
+      >
+         
+        This website uses cookies to ensure you get the best experience on our website, as described in our
+         
+        <span
+          className="btn-link"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+           
+            privacy policy.
+        </span>
+      </div>
+      <div
+        className="policy1"
+      >
+        This website uses cookies,
+        <span
+          className="btn-link"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+           
+            learn more.
+        </span>
+      </div>
+      <div
+        className="buttonDiv"
+      >
+        <button
+          className="btn-outline-warning"
+          onClick={[Function]}
+          style={
+            Object {
+              "border": "none",
+              "borderRadius": "50px",
+              "color": "black",
+              "padding": "5px 15px",
+            }
+          }
+        >
+          Accept
+        </button>
+      </div>
+    </div>
+  </div>,
+]
+`;

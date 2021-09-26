@@ -1,0 +1,148 @@
+/*------------------------------------*\
+  #button overide of bootstrap
+\*------------------------------------*/
+.btn{
+    min-height: 50px;
+    font-weight: 700;
+    border:none;
+    &.btn-primary{
+        font-weight: 700;
+        &.btn-theme{
+            min-width: 100px;
+            border:none;
+            padding:0 20px;
+            min-height: 40px;
+            line-height: 40px;
+            font-weight: 700;
+            @include border-radius(40px);
+            &:hover{
+                background:#3BCD73;
+                @include transition(all 0.2s ease-in-out 0s);
+            }
+        }
+        &.btn-primary-theme{
+            background-color:$primary-1;
+        }
+        &.btn-primary-border{
+            background:transparent;
+            color:$gray;
+            border:1px solid $light-gray;
+            &:hover{
+                background:$primary-2;
+                border-color: transparent;
+                color:white;
+                @include transition(all 0.2s ease-in-out 0s);
+            }
+        }
+        // &.btn-back-arrow{
+        //     background:none;
+        //     //max-width: 150px;
+        //     min-height: 50px;
+        //     color:$carbon;
+        //     line-height: 50px;
+        //     padding:0;
+        //     border:none;
+        //     color: $dark-gray;
+        //     img{
+        //         margin-right: 5px;
+        //     }
+        //     &:hover{
+        //         color:$primary-2;
+        //     }
+        // }
+    }
+    &.btn-secondary{
+        background:$primary-2;
+        font-weight: 700;
+        border:none;
+        padding:0 25px;
+        &.btn-theme{
+            min-width: 100px;
+            border:none;
+            padding:0 20px;
+            min-height: 40px;
+            line-height: 40px;
+            font-weight: 700;
+            @include border-radius(40px);
+        }
+        &.btn-secondary-big{
+            background:$primary-2;
+            //max-width: 475px;
+            min-height: 50px;
+            border:0;
+            font-weight: 700;
+            @include border-radius(3px);
+            &:hover{
+                background:drken($primary-2, 10%);
+            }
+        }
+    }
+    &.btn-back-arrow{
+        background:none;
+        //max-width: 150px;
+        min-height: 50px;
+        color: $dark-gray;
+        font-weight: 700;
+        line-height: 50px;
+        padding:0;
+        border:none;       
+        img{
+            margin-right: 5px;
+            position: relative;
+            top:-2px;
+        }
+        &:hover{
+            color:$primary-2;
+        }
+    }
+}
+button{
+    &:focus{
+        outline: none;
+        box-shadow:none!important;
+        border:none;
+    }
+}
+//add button 
+.add-section{
+    margin-bottom:25px;
+    &.in-steps{
+        padding:0 25px;
+        @media (max-width:991px){
+            .col{
+                flex-basis: auto;
+                &.justify-content-end{
+                    justify-content:flex-start!important;
+                    margin-top: 15px;
+                }
+            }
+        }
+      
+    }
+    .add-button-block{
+        color:$primary-2;
+        font-weight: 700;
+        a{
+             cursor: pointer;
+        }
+        img{
+            margin-right: 10px;
+        }
+    }
+}
+.btn-text{
+    font-weight:700;
+    color: $primary-2;
+}
+.anchor-plus{
+    @include rhythm(16,20);
+    font-weight: 700;
+    color: $primary-2;
+    cursor: pointer;
+    &:hover{
+        color:$dark-gray;
+    }
+    img{
+        margin-right: 10px;
+    }
+}

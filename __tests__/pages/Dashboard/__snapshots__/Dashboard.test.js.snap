@@ -1,0 +1,373 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dashboard /> Dashboard renders correctly 1`] = `
+Array [
+  <header
+    className="header-main"
+  >
+    <div
+      className="container"
+    >
+      <nav
+        className="navbar navbar-expand-lg navbar-light bg-light"
+      >
+        <div
+          className="navbar-brand"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+          <img
+            alt="logo"
+            className="logo"
+            src=""
+          />
+        </div>
+        <button
+          aria-controls="basic-navbar-nav"
+          aria-label="Toggle navigation"
+          className="navbar-toggler collapsed"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="navbar-toggler-icon"
+          />
+        </button>
+        <div
+          aria-expanded={null}
+          className="navbar-collapse collapse"
+          id="basic-navbar-nav"
+        >
+          <div
+            className="ml-md-auto navbar-nav"
+            onKeyDown={[Function]}
+          >
+            <span
+              className="btn btn-primary btn-theme btn-primary-border"
+              onClick={[Function]}
+            >
+              Sign in
+            </span>
+            <button
+              className="btn btn-primary btn-theme btn-primary-theme"
+              onClick={[Function]}
+            >
+              Sign up
+            </button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>,
+  <div
+    className="shadow-line"
+  />,
+  <section
+    className="admin-wrapper"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="mt-md-2 row"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-lg-4 col-md-5 col-sm-12"
+            >
+              <div
+                className="profile-card card"
+              >
+                <div
+                  className="profile-name"
+                >
+                  <img
+                    alt="UserImg"
+                    className="profile-icon"
+                    src=""
+                  />
+                   
+                  <span
+                    className="user-name"
+                  >
+                     
+                    <div
+                      className="spinner-border spinner-border-sm"
+                    />
+                  </span>
+                </div>
+              </div>
+              <div />
+            </div>
+            <div
+              className="md-3 mt-3 md-md-0 mt-md-0 col-lg-8 col-md-7 col-sm-12"
+            >
+              <div
+                className="p-3 activity-block justify-content-between card"
+              >
+                <div
+                  className="activity-block-wrap col"
+                >
+                  <div
+                    className="activity-stat"
+                  >
+                    <img
+                      alt="DollerImg"
+                      className="icon-activity"
+                      src=""
+                    />
+                    <div
+                      className="stat-block"
+                    >
+                      <span
+                        className="dynamic-no"
+                      >
+                        0
+                        K
+                      </span>
+                      <p>
+                        USD Sent
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="activity-block-wrap col"
+                >
+                  <div
+                    className="activity-stat"
+                  >
+                    <img
+                      alt="TransactioImg"
+                      className="icon-activity"
+                      src=""
+                    />
+                    <div
+                      className="stat-block"
+                    >
+                      <span
+                        className="dynamic-no"
+                      >
+                        0
+                      </span>
+                      <p>
+                        Transaction
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="activity-block-wrap last col"
+                >
+                  <div
+                    className="activity-stat"
+                  >
+                    <img
+                      alt="UsersImg"
+                      className="icon-activity"
+                      src=""
+                    />
+                    <div
+                      className="stat-block"
+                    >
+                      <span
+                        className="dynamic-no"
+                      >
+                        0
+                      </span>
+                      <p>
+                        Beneficiaries
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="mt-md-4 mt-2 row"
+          >
+            <div
+              className="col"
+            >
+              <h2
+                className="activity-title"
+              >
+                My Recent Transactions
+              </h2>
+              <div
+                style={
+                  Object {
+                    "height": "50vh",
+                  }
+                }
+              >
+                 
+                <div
+                  className="block-spinner"
+                >
+                  <div
+                    className="spinner-border"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>,
+  <footer
+    className="footer-section text-center"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-12"
+        >
+          <div
+            className="foot-nav"
+          >
+            <a
+              aria-current="page"
+              className="link active"
+              href="/"
+              onClick={[Function]}
+              style={Object {}}
+            >
+              Home
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/about-us"
+              onClick={[Function]}
+            >
+              About Us
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/terms-of-service"
+              onClick={[Function]}
+            >
+              Terms
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/privacy-policy"
+              onClick={[Function]}
+            >
+              Privacy Policy
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/copyright"
+              onClick={[Function]}
+            >
+              Copyright
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/contact-us"
+              onClick={[Function]}
+            >
+              Contact
+            </a>
+          </div>
+        </div>
+        <div
+          className="copyright col-sm-12"
+        >
+          <p>
+            © Golden Money Transfer Inc. 2020. All Rights Reserved.
+             
+            <b>
+              Licensed by
+            </b>
+             Department of Financial Institutions, Nevada
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>,
+  <div
+    className="disclaimer text-center"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="policy"
+      >
+         
+        This website uses cookies to ensure you get the best experience on our website, as described in our
+         
+        <span
+          className="btn-link"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+           
+            privacy policy.
+        </span>
+      </div>
+      <div
+        className="policy1"
+      >
+        This website uses cookies,
+        <span
+          className="btn-link"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+           
+            learn more.
+        </span>
+      </div>
+      <div
+        className="buttonDiv"
+      >
+        <button
+          className="btn-outline-warning"
+          onClick={[Function]}
+          style={
+            Object {
+              "border": "none",
+              "borderRadius": "50px",
+              "color": "black",
+              "padding": "5px 15px",
+            }
+          }
+        >
+          Accept
+        </button>
+      </div>
+    </div>
+  </div>,
+]
+`;

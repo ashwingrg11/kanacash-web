@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+body {
+  font-family: "Lato", sans-serif !important;
+  font-size: 16px;
+  color: $gray;
+  font-weight: 400;
+}
+a {
+  color: $primary-2;
+}
+button,
+a {
+  &:focus {
+    outline: none;
+    box-shadow: none !important;
+    border: none;
+  }
+}
+.container {
+  @include respond-to(x-large) {
+    max-width: 1170px !important;
+  }
+}
+//main wrapper
+.main-wrapper {
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  display: flex;
+}
+
+.front-background {
+  background-image: url("../../images/backGroundImg.png");
+  @include background;
+  background-position: top center;
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @include respond-to(small) {
+    background-size: 1920px;
+  }
+  @include respond-to(large) {
+    background-size: cover;
+  }
+}
+.front-background-no-bg {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.theme-inner {
+  display: flex;
+  flex: 1 0 auto;
+}
+.circle-stroke {
+  background: white;
+  width: 100%;
+  max-width: 630px;
+  margin: 50px 15px;
+  padding-top: 50px;
+  padding: 15px 15px 20px 15px;
+  @include box-shadow(0 0 10px rgba(black, 0.1));
+  @include border-radius(3px);
+  @include respond-to(small-xs) {
+    margin: 30px auto 30px auto;
+    padding: 35px 40px 50px 40px;
+  }
+  &.country-circle {
+    .title {
+      color: $primary-2;
+      @media (max-width: 479px) {
+        display: flex;
+        padding: 0 20px;
+      }
+    }
+    p {
+      @include respond-to(small) {
+        @include rhythm(22, 28);
+      }
+      &.tagline {
+        margin-bottom: 25px;
+      }
+    }
+  }
+  &.form-up-wrap {
+    max-width: 526px;
+    padding: 0;
+    background: none;
+    @include box-shadow(none);
+  }
+  .title-special {
+    color: $primary-2;
+    display: flex;
+    span {
+      margin: 0 15px;
+    }
+  }
+  .send-money {
+    margin-top: 20px;
+    @include respond-to(small) {
+      margin-top: 180px;
+    }
+  }
+}
+
+//shadow line
+.shadow-line {
+  background: white;
+  height: 1px;
+  width: 100%;
+  margin-top: -2px;
+  @include box-shadow(0 0 10px rgba(black, 1));
+}
+
+//Admin
+.blue-bg {
+  cursor: pointer;
+  background-image: url(../../images/admin/block-blue-bg.png);
+  @include background;
+  padding: 25px;
+  text-align: center;
+  @include border-radius(3px);
+  @include box-shadow(0 0 10px rgba(black, 0.1));
+  h3 {
+    @include rhythm(20, 24);
+    font-weight: 400;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 10px;
+    @include respond-to(small) {
+      @include rhythm(24, 28);
+    }
+  }
+}
+.admin-wrapper {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  @include respond-to(small) {
+    margin-top: 42px;
+  }
+}
+.admin-content {
+  margin-top: 45px;
+}
+//special select for bebeficiary detail
+.select-special {
+  .payment-block-wrap .card .info {
+    padding-left: 25px;
+  }
+  .payment-block-wrap .card .info.info-select .form-control {
+    padding-left: 10px !important;
+  }
+  select {
+    option {
+      font-size: 16px;
+      @include respond-to(small) {
+        font-size: 18px;
+      }
+    }
+  }
+}
+.choose-select {
+  .payment-block-wrap .card {
+    padding-left: 10px;
+  }
+}
+//static content style
+.static-content{
+  padding-bottom: 30px;
+  @include respond-to(small){
+    padding-bottom: 50px;
+  }
+  h3{
+    color:$dark-gray;
+  }
+  a{
+    color:$primary-2;
+  }
+}
+//listing
+.point-list{
+  margin:0 0 0 15px;
+  padding:0;
+  @include respond-to(small){
+    margin:0 0 0 30px;
+  }
+  li{
+    list-style-type: decimal;
+    b{
+      color:$gray;
+    }
+  }
+  ul{
+    margin:0 0 0 0px;
+    padding:0 0 0 15px;
+    li{
+      list-style-type: lower-alpha;
+    }
+  }
+}

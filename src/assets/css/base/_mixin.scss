@@ -1,0 +1,146 @@
+//media query
+@mixin respond-to($breakpoint) {
+    @if $breakpoint=="small-xs" {
+        @media (min-width: 480px) {
+            @content;
+        }
+    }
+    @else if $breakpoint=="small" {
+        @media (min-width: 768px) {
+            @content;
+        }
+    }
+    @else if $breakpoint=="medium" {
+        @media (min-width: 992px) {
+            @content;
+        }
+    }
+    @else if $breakpoint=="large" {
+        @media (min-width: 1200px) {
+            @content;
+        }
+    }
+    @else if $breakpoint=="x-large" {
+        @media (min-width: 1300px) {
+            @content;
+        }
+    }
+    @else if $breakpoint=="mid-large" {
+        @media (min-width: 1440px) {
+            @content;
+        }
+    }
+    @else if $breakpoint=="xx-large" {
+        @media (min-width: 1700px) {
+            @content;
+        }
+    }
+    @else if $breakpoint=="xxx-large" {
+        @media (min-width: 1921px) {
+            @content;
+        }
+    }
+    @else if $breakpoint {
+        @media (max-width: $breakpoint) {
+            @content;
+        }
+    }
+}
+
+@mixin border-radius($radius) {
+    -moz-border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+@mixin box-shadow($shadow) {
+   -moz-box-shadow:$shadow;
+   -webkit-box-shadow:$shadow;
+   -ms-box-shadow:$shadow;
+   box-shadow: $shadow;
+}
+
+@mixin transform($transforms) {
+    -moz-transform: $transforms;
+    -o-transform: $transforms;
+    -ms-transform: $transforms;
+    -webkit-transform: $transforms;
+    transform: $transforms;
+}
+
+//transition
+@mixin transition($transition) {
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -ms-transition: $transition;
+    transition: $transition;
+}
+//background
+@mixin background{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@mixin pseudo($display: block, $pos: absolute, $content: ''){
+    content: $content;
+    display: $display;
+    position: $pos;
+}
+//gradient
+@mixin linearGradient($left, $right){
+    background: $left; /* Old browsers */
+    background: -moz-linear-gradient(left,  $left 0%, $right 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$left), color-stop(100%,$right)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  $left 0%,$right 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  $left 0%,$right 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  $left 0%,$right 100%); /* IE10+ */
+    background: linear-gradient(to right,  $left 0%,$right 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+//font sizes
+:root {
+font-size: 16px;
+}
+@mixin font-size($sizeValue: 14 ){
+    font-size: $sizeValue + px; //fallback for old browsers
+    font-size: (0.0625 * $sizeValue) + rem;
+}
+
+@mixin line-height($heightValue: 20 ){
+    line-height: $heightValue + px; //fallback for old browsers
+    line-height: (0.0625 * $heightValue) + rem;
+}
+
+@mixin rhythm($sizeValue: 14, $heightValue: 20) {
+    @include font-size($sizeValue);
+    @include line-height($heightValue);
+}
+//placeholder
+@mixin input-placeholder {
+    &.placeholder { @content; }
+    &:-moz-placeholder { @content; }
+    &::-moz-placeholder { @content; }
+    &:-ms-input-placeholder { @content; }
+    &::-webkit-input-placeholder { @content; }
+}
+
+@mixin overflow{
+    content:"";
+    display:table;
+    clear:both;
+}
+@mixin border-gradient($from, $to, $weight: 0) {
+	$mix-main: mix($from, $to);
+	$mix-sub-from: mix($mix-main, $from);
+	$mix-sub-to: mix($mix-main, $to);
+	
+	box-shadow: 0 1px 0 $weight rgba($mix-sub-to, .25),
+				0 -1px 0 $weight rgba($mix-sub-from, .25),
+				1px 0 0 $weight rgba($mix-sub-to, .25),
+				-1px 0 0 $weight  rgba($mix-sub-from, .25),
+				1px -1px 0 $weight rgba($mix-main, .5),
+				-1px 1px 0 $weight rgba($mix-main, .5),
+				1px 1px 0 $weight rgba($to, .75),
+				-1px -1px 0 $weight rgba($from, .75);
+  }

@@ -1,0 +1,98 @@
+.footer-section {
+  background: #fafafa;
+  padding: 30px 0;
+  margin-top: auto;
+  .foot-nav {
+    margin-bottom: 5px;
+    a {
+      color: $dark-gray;
+      margin: 0 12px 5px 13px;
+      display: inline-block;
+      @include respond-to(small) {
+        margin: 0 15px 05px 16px;
+      }
+      &:hover {
+        color: $primary-2;
+        text-decoration: none;
+      }
+      &.link {
+        position: relative;
+        &:after {
+          content: "";
+          position: absolute;
+          left: -16px;
+          top: 3px;
+          background: $dark-gray;
+          width: 1px;
+          height: 16px;
+        }
+        &:first-child {
+          &:after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .copyright {
+    p {
+      font-size: 14px;
+      color: #828282;
+      margin-bottom: 0;
+      span {
+        color: $dark-gray;
+        padding-left: 5px;
+      }
+    }
+  }
+}
+
+.disclaimer {
+  bottom: 0%;
+  padding: 50px 0px;
+  position: fixed;
+  width: 100%;
+  background-color: #393838;
+  opacity: 0.9;
+
+  .policy {
+    color: white;
+    // font-size: 14px;
+    height: 100%;
+    display: inline-block;
+    // display: none;
+    text-align: center;
+    padding-top: 14px;
+    span {
+      color: #4dd9e6;
+    }
+  }
+  .policy1 {
+    color: white;
+    // font-size: 12px;
+    height: 100%;
+    display: none;
+    margin-left: 20px;
+    text-align: start;
+    padding-top: 14px;
+    span {
+      color: #4dd9e6;
+    }
+  }
+
+  .buttonDiv {
+    height: 40px;
+    background-color: #393838;
+    margin: 8px 10px;
+    display: inline-block;
+  }
+
+  @media screen and (max-width: 800px) {
+    .policy {
+      display: none;
+    }
+    .policy1 {
+      display: inline-block;
+    }
+  }
+}

@@ -1,0 +1,438 @@
+//Account information
+.card-block {
+  margin-bottom: 20px;
+}
+.card {
+  &.account-card-block {
+    border: 1px solid #bdbdbd;
+  }
+}
+.account-card-block {
+  padding: 15px 20px;
+  @include box-shadow(0 0 10px rgba(black, 0.1));
+  .username {
+    @include rhythm(24, 28);
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  .block-with-img {
+    @include rhythm(16, 34);
+    color: $gray;
+    img {
+      margin-right: 20px;
+    }
+    .badge {
+      background: $dark-gray;
+      min-height: 30px;
+      max-width: 230px;
+      color: white;
+      font-weight: 400;
+      display: block;
+      line-height: 30px;
+      text-align: left;
+      padding-left: 10px;
+      margin-top: 10px;
+      margin-left: -10px;
+      @include border-radius(30px);
+    }
+    &.with-address {
+      display: flex;
+      align-items: baseline;
+      img {
+        vertical-align: top;
+      }
+      p {
+        margin-bottom: 0;
+        line-height: 22px;
+      }
+    }
+  }
+}
+.button-card {
+  padding: 20px;
+  p {
+    @include rhythm(20, 24);
+  }
+  .btn {
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+    &:first-child {
+      margin-right: 20px;
+    }
+  }
+}
+//show hide
+.user-edit {
+  @include rhythm(20, 24);
+  color: $dark-gray;
+  font-weight: 700;
+  @include respond-to(medium) {
+    @include rhythm(24, 28);
+    padding-right: 100px;
+  }
+}
+.show-hide {
+  cursor: pointer;
+  text-decoration: none;
+  @include respond-to(medium) {
+    position: absolute;
+    right: 20px;
+  }
+}
+.hidden-content {
+  margin-top: 15px;
+}
+.payment-hidden {
+  max-width: 120px;
+  border: 1px solid $carbon;
+  padding: 0;
+  margin-left: 10px;
+  @include border-radius(3px);
+  h3 {
+    @include rhythm(16, 20);
+    color: $dark-gray;
+    margin-bottom: 0;
+    @include respond-to(small) {
+      @include rhythm(16, 40);
+    }
+  }
+  b {
+    @include rhythm(20, 24);
+    color: $dark-gray;
+    font-weight: 700;
+  }
+}
+.col {
+  &.payment-hidden {
+    padding: 10px 0;
+    @include respond-to(large) {
+      max-width: 120px;
+    }
+  }
+}
+//payment type block
+.payment-block-wrap {
+  max-width: 570px;
+  .subhead-title {
+    margin-top: 20px;
+  }
+  .card {
+    padding: 17px 20px;
+    margin-bottom: 20px;
+    .info {
+      padding-left: 35px;
+      padding-right: 35px;
+      position: relative;
+      &.info-without-img {
+        padding-left: 0;
+        padding-right: 0;
+      }
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .payment-type {
+        display: block;
+        @include rhythm(18, 22);
+        font-weight: 700;
+        color: $dark-gray;
+        margin-bottom: 0;
+        margin-top: -3px;
+      }
+      .small {
+        @include rhythm(12, 16);
+        color: $carbon;
+        margin-bottom: 0;
+      }
+      &.info-select {
+        padding-right: 0;
+        .form-control {
+          height: auto !important;
+          padding-left: 0 !important;
+          border: none;
+          @include rhythm(22, 26);
+          color: $dark-gray;
+          padding: 0;
+          background-image: url("../..//images/icons/dropdownArrow.svg");
+          background-position: calc(100% - -10px) /* 0px from the right */
+            calc(100% - 9px) /* 10% from the bottom */;
+          background-repeat: no-repeat;
+          background-size: 24px;
+          -moz-appearance: none; /* Firefox */
+          -webkit-appearance: none; /* Safari and Chrome */
+          appearance: none;
+          img {
+            top: 50%;
+            margin-top: -13px;
+          }
+          &::placeholder {
+            color: $carbon;
+          }
+          &:focus {
+            box-shadow: none;
+          }
+        }
+      }
+    }
+    input {
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      margin-top: -10px;
+      &.special-input {
+        position: inherit;
+        right: inherit;
+        top: inherit;
+        margin-top: inherit;
+        background: white;
+      }
+    }
+    &.show-bank-info {
+      background: #f1f1f1;
+      padding: 10px 20px;
+      p {
+        margin-bottom: 3px;
+        color: $gray;
+        b {
+          color: $dark-gray;
+        }
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+.payout-block {
+  margin-top: 25px;
+  span {
+    img {
+      margin-right: 10px;
+    }
+  }
+}
+//button group
+.button-group {
+  max-width: 570px;
+  &-special {
+    max-width: 100%;
+  }
+}
+
+//summary card
+.summary-card {
+  padding: 10px 15px;
+  @include box-shadow(0 0 10px rgba(black, 0.2));
+  margin-top: 50px;
+  @include respond-to(small) {
+    margin-top: 0;
+  }
+  &.card {
+    border: none;
+  }
+  @include respond-to(large) {
+    width: 400px;
+    float: right;
+    padding: 15px 20px 18px 20px;
+  }
+  .sub-title {
+    @include rhythm(24, 28);
+    font-weight: 700;
+  }
+  .country-flag {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+    top: 5px;
+    @include border-radius(30px);
+    img {
+      width: 40px;
+      margin-left: -5px;
+    }
+  }
+  .xchange-rate {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  a {
+    @include rhythm(14, 18);
+    margin-left: 5px;
+  }
+}
+//admin
+.add-fee-equal-w {
+  width: 100%;
+  margin-bottom: 15px;
+  @include respond-to(medium) {
+    margin-bottom: 0;
+    &.add-fee-mid {
+      margin: 0 10px;
+    }
+    width: 40%;
+  }
+  @include respond-to(large) {
+    width: 310px;
+    &.add-fee-mid {
+      margin: 0 20px;
+    }
+  }
+}
+.add-fee-currency {
+  width: 100%;
+  @include respond-to(medium) {
+    width: 18%;
+  }
+  @include respond-to(large) {
+    width: 150px;
+  }
+  .selected-country {
+    @include rhythm(16, 20);
+    color: $dark-gray;
+  }
+}
+.add-fee-structure {
+  @include respond-to(medium) {
+    display: flex;
+  }
+  label {
+    @include rhythm(16, 20);
+    color: $carbon;
+    font-weight: 400;
+  }
+  .custom-wrap {
+    padding: 9px 15px 12px 15px;
+    margin-bottom: 0;
+    height: 45px;
+    @include border-radius(3px);
+  }
+  .input-dropdown {
+    position: relative;
+    .show-country-dd {
+      width: 100%;
+    }
+  }
+  .selected-country {
+    line-height: 1;
+    span {
+      @include rhythm(16, 20);
+      color: $dark-gray;
+    }
+    .selected-select {
+      img {
+        width: 16px;
+        margin-right: 5px;
+      }
+      .arrow-right {
+        margin: 0 10px;
+        img {
+          margin: 0;
+        }
+      }
+    }
+  }
+  .show-country-dd {
+    @include respond-to(large) {
+      width: 310px;
+    }
+    ul {
+      color: $dark-gray;
+      li {
+        @include rhythm(16, 20);
+        color: $dark-gray;
+        padding: 5px 10px;
+        img {
+          width: 16px;
+          margin-right: 5px;
+        }
+        .arrow-right {
+          padding: 0 10px;
+          img {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
+.amount-field-wrap {
+  padding: 0 15px;
+  margin-bottom: 10px;
+}
+.amount-field {
+  &.col {
+    padding: 0 10px 0 0;
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+  input {
+    font-size: 16px;
+    padding: 9px 10px 12px 10px;
+    @include border-radius(3px);
+  }
+}
+.amount-field{
+    &.col{
+        padding:0 10px 0 0;
+        &:last-child{
+            padding-right: 0;
+        }
+    }
+    input{
+        font-size: 16px;
+        padding:9px 10px 12px 10px;
+        @include border-radius(3px);
+    }
+}
+//tier styling
+.level-accordion{
+    .accordion>.card>.card-header{
+        margin-bottom: 0;
+    }
+    .accordion>.card:not(:last-of-type){
+        border-bottom: 1px solid rgba(0,0,0,.125);
+    }
+    .card-header{
+        border-bottom: 0;
+        @include rhythm(16,20);
+        font-weight: 700;
+        cursor: pointer;
+    }
+    .card-body{
+        padding-top: 15px;
+        p{
+            margin-bottom: 5px;
+        }
+        ul{
+            margin:0 0 0 20px;
+            padding:0;
+            li{
+                font-size: 14px;
+                color: $gray;
+            }
+        }
+    }
+}
+
+.block-spinner{
+    background:rgba(white,0.7);
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @include border-radius(3px);
+    .spinner-border{
+        margin:0 auto;
+    }
+}

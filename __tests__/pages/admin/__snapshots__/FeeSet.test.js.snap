@@ -1,0 +1,491 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeeSet /> FeeSet renders correctly 1`] = `
+Array [
+  <header
+    className="header-main"
+  >
+    <div
+      className="container"
+    >
+      <nav
+        className="navbar navbar-expand-lg navbar-light bg-light"
+      >
+        <div
+          className="navbar-brand"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+          <img
+            alt="logo"
+            className="logo"
+            src=""
+          />
+        </div>
+        <button
+          aria-controls="basic-navbar-nav"
+          aria-label="Toggle navigation"
+          className="navbar-toggler collapsed"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="navbar-toggler-icon"
+          />
+        </button>
+        <div
+          aria-expanded={null}
+          className="navbar-collapse collapse"
+          id="basic-navbar-nav"
+        >
+          <div
+            className="ml-md-auto navbar-nav"
+            onKeyDown={[Function]}
+          >
+            <span
+              className="btn btn-primary btn-theme btn-primary-border"
+              onClick={[Function]}
+            >
+              Sign in
+            </span>
+            <button
+              className="btn btn-primary btn-theme btn-primary-theme"
+              onClick={[Function]}
+            >
+              Sign up
+            </button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>,
+  <div
+    className="shadow-line"
+  />,
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+      style={
+        Object {
+          "minHeight": "900px",
+        }
+      }
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-xl-3 col-lg-4 col-md-5 col-sm-12"
+            style={
+              Object {
+                "marginTop": "40px",
+              }
+            }
+          >
+            <div
+              className="row"
+              style={
+                Object {
+                  "backgroundColor": "#FAFAFA",
+                  "padding": "20px",
+                }
+              }
+            >
+              <div
+                className="col"
+              >
+                <div
+                  className="mt-2 row"
+                  style={
+                    Object {
+                      "height": "30px",
+                    }
+                  }
+                >
+                  <div
+                    className="d-flex align-items-center col"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#4F4F4F",
+                        "cursor": "pointer",
+                        "fontSize": "16px",
+                        "fontWeight": "bold",
+                      }
+                    }
+                  >
+                     
+                    <img
+                      alt="img"
+                      src=""
+                      style={
+                        Object {
+                          "marginRight": "10px",
+                          "paddingBottom": "3px",
+                        }
+                      }
+                    />
+                    Dashboard
+                  </div>
+                </div>
+                <div
+                  className="mt-2 row"
+                  style={
+                    Object {
+                      "height": "30px",
+                    }
+                  }
+                >
+                  <div
+                    className="d-flex align-items-center col"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#4F4F4F",
+                        "cursor": "pointer",
+                        "fontSize": "16px",
+                        "fontWeight": "bold",
+                      }
+                    }
+                  >
+                     
+                    <img
+                      alt="img"
+                      src=""
+                      style={
+                        Object {
+                          "marginRight": "10px",
+                          "paddingBottom": "3px",
+                        }
+                      }
+                    />
+                    Add Fee Set
+                  </div>
+                </div>
+                <div
+                  className="mt-2 row"
+                  style={
+                    Object {
+                      "height": "30px",
+                    }
+                  }
+                >
+                  <div
+                    className="d-flex align-items-center col"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#4F4F4F",
+                        "cursor": "pointer",
+                        "fontSize": "16px",
+                        "fontWeight": "bold",
+                      }
+                    }
+                  >
+                     
+                    <img
+                      alt="img"
+                      src=""
+                      style={
+                        Object {
+                          "marginRight": "10px",
+                          "paddingBottom": "3px",
+                        }
+                      }
+                    />
+                    Fee Set
+                  </div>
+                </div>
+                <div
+                  className="mt-2 row"
+                  style={
+                    Object {
+                      "height": "30px",
+                    }
+                  }
+                >
+                  <div
+                    className="d-flex align-items-center col"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#4F4F4F",
+                        "cursor": "pointer",
+                        "fontSize": "16px",
+                        "fontWeight": "bold",
+                      }
+                    }
+                  >
+                     
+                    <img
+                      alt="img"
+                      src=""
+                      style={
+                        Object {
+                          "marginRight": "10px",
+                          "paddingBottom": "3px",
+                        }
+                      }
+                    />
+                    Unlock Sender
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-xl-9 col-lg-8 col-md-7 col-sm-12"
+            style={
+              Object {
+                "marginTop": "40px",
+              }
+            }
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col"
+                style={
+                  Object {
+                    "color": "#212529",
+                    "fontSize": "22px",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Fee Set
+              </div>
+            </div>
+            <div
+              className="mt-4 row"
+            >
+              <div
+                className="col"
+              >
+                <div
+                  className="p-4 card"
+                >
+                  <div
+                    className="row"
+                  >
+                    <div
+                      className="d-flex align-items-center mr-2 ml-2 col"
+                      style={
+                        Object {
+                          "backgroundColor": "#d1ecf1",
+                          "border": " 1px solid rgba(16, 119, 190, 0.1)",
+                          "height": "50px",
+                        }
+                      }
+                    >
+                      Current active fee sets
+                       
+                    </div>
+                  </div>
+                  <div
+                    className="row"
+                  >
+                    <div
+                      className="p-2 col"
+                    >
+                      <div
+                        className="table-responsive"
+                      >
+                        <table
+                          id="customTable"
+                        >
+                          <tbody>
+                            <tr>
+                              <th>
+                                PAYMENT METHOD
+                              </th>
+                              <th>
+                                PAYOUT METHOD
+                              </th>
+                              <th>
+                                CURRENCY
+                              </th>
+                              <th>
+                                MIN AMOUNT
+                              </th>
+                              <th>
+                                MAX AMOUNT
+                              </th>
+                              <th>
+                                FLAT FEE
+                              </th>
+                              <th>
+                                PERCENTAGE FEE
+                              </th>
+                              <th>
+                                ACTION
+                              </th>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <footer
+    className="footer-section text-center"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-12"
+        >
+          <div
+            className="foot-nav"
+          >
+            <a
+              aria-current="page"
+              className="link active"
+              href="/"
+              onClick={[Function]}
+              style={Object {}}
+            >
+              Home
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/about-us"
+              onClick={[Function]}
+            >
+              About Us
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/terms-of-service"
+              onClick={[Function]}
+            >
+              Terms
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/privacy-policy"
+              onClick={[Function]}
+            >
+              Privacy Policy
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/copyright"
+              onClick={[Function]}
+            >
+              Copyright
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/contact-us"
+              onClick={[Function]}
+            >
+              Contact
+            </a>
+          </div>
+        </div>
+        <div
+          className="copyright col-sm-12"
+        >
+          <p>
+            © Golden Money Transfer Inc. 2020. All Rights Reserved.
+             
+            <b>
+              Licensed by
+            </b>
+             Department of Financial Institutions, Nevada
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>,
+  <div
+    className="disclaimer text-center"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="policy"
+      >
+         
+        This website uses cookies to ensure you get the best experience on our website, as described in our
+         
+        <span
+          className="btn-link"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+           
+            privacy policy.
+        </span>
+      </div>
+      <div
+        className="policy1"
+      >
+        This website uses cookies,
+        <span
+          className="btn-link"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+           
+            learn more.
+        </span>
+      </div>
+      <div
+        className="buttonDiv"
+      >
+        <button
+          className="btn-outline-warning"
+          onClick={[Function]}
+          style={
+            Object {
+              "border": "none",
+              "borderRadius": "50px",
+              "color": "black",
+              "padding": "5px 15px",
+            }
+          }
+        >
+          Accept
+        </button>
+      </div>
+    </div>
+  </div>,
+]
+`;

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputDropdown /> InputDropdown renders correctly 1`] = `
+<div
+  className="sc-AxjAm jhiTqR"
+>
+  <div
+    className="sc-AxirZ fpkyRk input-dropdown"
+  >
+    <div
+      className="sc-AxiKw jtcTIk custom-wrap"
+      onClick={[Function]}
+    >
+      <div
+        className="sc-AxgMl fqhLTf"
+      >
+        <div
+          className="selected-country"
+        >
+          <input
+            className="sc-fzoLsD bZwsmY"
+            onChange={[Function]}
+            placeholder="Select a country"
+            value=""
+          />
+        </div>
+        <img
+          alt="arrow-dwon"
+          src=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

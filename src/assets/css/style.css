@@ -1,0 +1,20 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.theme-background {
+  display: flex;
+  flex: 1;
+  /* background-image: url(../images/CityScape.jpg); */
+}
+
+#receiptModal .modal-content {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+br {
+  font-size: 4px;
+  vertical-align: -8px;
+}

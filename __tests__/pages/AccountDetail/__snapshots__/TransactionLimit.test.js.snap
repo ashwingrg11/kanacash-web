@@ -1,0 +1,703 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TransactionLimit /> TransactionLimit renders correctly 1`] = `
+Array [
+  <header
+    className="header-main"
+  >
+    <div
+      className="container"
+    >
+      <nav
+        className="navbar navbar-expand-lg navbar-light bg-light"
+      >
+        <div
+          className="navbar-brand"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+          <img
+            alt="logo"
+            className="logo"
+            src=""
+          />
+        </div>
+        <button
+          aria-controls="basic-navbar-nav"
+          aria-label="Toggle navigation"
+          className="navbar-toggler collapsed"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="navbar-toggler-icon"
+          />
+        </button>
+        <div
+          aria-expanded={null}
+          className="navbar-collapse collapse"
+          id="basic-navbar-nav"
+        >
+          <div
+            className="ml-md-auto navbar-nav"
+            onKeyDown={[Function]}
+          >
+            <span
+              className="btn btn-primary btn-theme btn-primary-border"
+              onClick={[Function]}
+            >
+              Sign in
+            </span>
+            <button
+              className="btn btn-primary btn-theme btn-primary-theme"
+              onClick={[Function]}
+            >
+              Sign up
+            </button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>,
+  <div
+    className="shadow-line"
+  />,
+  <section
+    className="admin-wrapper"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col"
+        >
+          <h2
+            className="account-title"
+          >
+            My Account
+          </h2>
+          <p>
+            Everything we know about you.
+          </p>
+          <div
+            className="admin-content row"
+          >
+            <div
+              className="col-xl-3 col-lg-4 col-md-5 col-sm-12"
+            >
+              <ul
+                className="sidebar-menu"
+              >
+                <li>
+                  <div
+                    className="d-flex align-items-center"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#1077BE",
+                        "cursor": "pointer",
+                        "fontSize": "16px",
+                        "fontWeight": "bold",
+                        "marginBottom": "10px",
+                      }
+                    }
+                  >
+                     
+                    <img
+                      alt="activeImg"
+                      src=""
+                      style={
+                        Object {
+                          "marginRight": "10px",
+                          "paddingBottom": "3px",
+                        }
+                      }
+                    />
+                    Profile
+                  </div>
+                </li>
+                <li>
+                  <div
+                    className="d-flex align-items-center"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#4F4F4F",
+                        "cursor": "pointer",
+                        "fontSize": "16px",
+                        "fontWeight": "bold",
+                        "marginBottom": "10px",
+                      }
+                    }
+                  >
+                     
+                    <img
+                      alt="img"
+                      src=""
+                      style={
+                        Object {
+                          "marginRight": "10px",
+                          "paddingBottom": "3px",
+                        }
+                      }
+                    />
+                    Beneficiary
+                  </div>
+                </li>
+                <li>
+                  <div
+                    className="d-flex align-items-center"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#4F4F4F",
+                        "cursor": "pointer",
+                        "fontSize": "16px",
+                        "fontWeight": "bold",
+                        "marginBottom": "10px",
+                      }
+                    }
+                  >
+                     
+                    <img
+                      alt="img"
+                      src=""
+                      style={
+                        Object {
+                          "marginRight": "10px",
+                          "paddingBottom": "3px",
+                        }
+                      }
+                    />
+                    Bank Accounts
+                  </div>
+                </li>
+                <li>
+                  <div
+                    className="d-flex align-items-center"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#4F4F4F",
+                        "cursor": "pointer",
+                        "fontSize": "16px",
+                        "fontWeight": "bold",
+                        "marginBottom": "10px",
+                      }
+                    }
+                  >
+                     
+                    <img
+                      alt="img"
+                      src=""
+                      style={
+                        Object {
+                          "marginRight": "10px",
+                          "paddingBottom": "3px",
+                        }
+                      }
+                    />
+                    Debit Cards
+                  </div>
+                </li>
+                <li>
+                  <div
+                    className="d-flex align-items-center"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#4F4F4F",
+                        "cursor": "pointer",
+                        "fontSize": "16px",
+                        "fontWeight": "bold",
+                        "marginBottom": "10px",
+                      }
+                    }
+                  >
+                     
+                    <img
+                      alt="img"
+                      src=""
+                      style={
+                        Object {
+                          "marginRight": "10px",
+                          "paddingBottom": "3px",
+                        }
+                      }
+                    />
+                    Transactions
+                  </div>
+                </li>
+                <li>
+                  <div
+                    className="d-flex align-items-center"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#4F4F4F",
+                        "cursor": "pointer",
+                        "fontSize": "16px",
+                        "fontWeight": "bold",
+                        "marginBottom": "10px",
+                      }
+                    }
+                  >
+                     
+                    <img
+                      alt="img"
+                      src=""
+                      style={
+                        Object {
+                          "marginRight": "10px",
+                          "paddingBottom": "3px",
+                        }
+                      }
+                    />
+                    Transaction Limit
+                  </div>
+                </li>
+                <li>
+                  <div
+                    className="d-flex align-items-center"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#4F4F4F",
+                        "cursor": "pointer",
+                        "fontSize": "16px",
+                        "fontWeight": "bold",
+                        "marginBottom": "10px",
+                      }
+                    }
+                  >
+                     
+                    <img
+                      alt="img"
+                      src=""
+                      style={
+                        Object {
+                          "marginRight": "10px",
+                          "paddingBottom": "3px",
+                        }
+                      }
+                    />
+                    Settings
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="col-xl-9 col-lg-8 col-md-7 col-sm-12"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="activity-title col"
+                >
+                  Upgrade Limit
+                </div>
+              </div>
+              <div
+                className="mt-3 row"
+              >
+                <div
+                  className="col"
+                >
+                  <div
+                    className="p-3 card"
+                  >
+                    <div
+                      className="row"
+                    >
+                      <div
+                        className="col"
+                      >
+                        All customers are categorized under three (3) transaction limits based on the amount they can send. If you want to transfer more funds your current transaction limit allows, then you will need to a higher transaction limit. To upgrade, you will be required to provide additional information.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="mt-2 row"
+              >
+                <div
+                  className="col-lg-7"
+                >
+                  <div />
+                </div>
+                <div
+                  className="mt-2 level-accordion col-lg-5"
+                >
+                  <div
+                    className="accordion"
+                  >
+                    <div
+                      className="mb-2 card"
+                    >
+                      <div
+                        className="card-header"
+                        onClick={[Function]}
+                      >
+                        Level 1
+                         
+                      </div>
+                      <div
+                        aria-expanded={null}
+                        className="collapse"
+                      >
+                        <div
+                          className="card-body"
+                        >
+                          <p>
+                            <b>
+                              Requirement
+                            </b>
+                          </p>
+                          <ul
+                            className="mb-3"
+                          >
+                            <li>
+                              Full Name
+                            </li>
+                            <li>
+                              Gender
+                            </li>
+                            <li>
+                              Full Address (Street, City, State, Zip Code)
+                            </li>
+                            <li>
+                              Date of Birth
+                            </li>
+                            <li>
+                              Phone Number
+                            </li>
+                            <li>
+                              OFAC and Sanction List Checks
+                            </li>
+                          </ul>
+                          <p>
+                            <b>
+                              Note: 
+                            </b>
+                            Limit for Level 1 customers
+                          </p>
+                          <ul>
+                            <li>
+                               upto $500 per transaction
+                            </li>
+                            <li>
+                              upto $500 per day
+                            </li>
+                            <li>
+                              upto $500 per 15 days
+                            </li>
+                            <li>
+                              upto $1,000 per 30 days
+                            </li>
+                            <li>
+                              upto $3,000 per 6 months
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="mb-2 card"
+                    >
+                      <div
+                        className="card-header"
+                        onClick={[Function]}
+                      >
+                        Level 2
+                         
+                      </div>
+                      <div
+                        aria-expanded={null}
+                        className="collapse"
+                      >
+                        <div
+                          className="card-body"
+                        >
+                          <p>
+                            <b>
+                              Requirement
+                            </b>
+                          </p>
+                          <ul
+                            className="mb-3"
+                          >
+                            <li>
+                              Id Number
+                            </li>
+                            <li>
+                              ID issuing Authority
+                            </li>
+                            <li>
+                              ID Expiry Date
+                            </li>
+                            <li>
+                              Copy of Customer Id
+                            </li>
+                          </ul>
+                          <p>
+                            <b>
+                              Note: 
+                            </b>
+                            Limit for Level 2 customers
+                          </p>
+                          <ul>
+                            <li>
+                               upto $1,000 per transaction
+                            </li>
+                            <li>
+                              upto $2,999 per day
+                            </li>
+                            <li>
+                              upto $2,999 per 15 days
+                            </li>
+                            <li>
+                              upto $5,000 per 30 days
+                            </li>
+                            <li>
+                              upto $9,999 per 6 months
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="mb-2 card"
+                    >
+                      <div
+                        className="card-header"
+                        onClick={[Function]}
+                      >
+                        Level 3
+                         
+                      </div>
+                      <div
+                        aria-expanded={null}
+                        className="collapse"
+                      >
+                        <div
+                          className="card-body"
+                        >
+                          <p>
+                            <b>
+                              Requirement
+                            </b>
+                          </p>
+                          <ul
+                            className="mb-3"
+                          >
+                            <li>
+                               Full SSN
+                            </li>
+                            <li>
+                              Occupation
+                            </li>
+                            <li>
+                              Company Details
+                            </li>
+                            <li>
+                              Purpose of Remittance
+                            </li>
+                            <li>
+                              Sender Beneficiary Relationship
+                            </li>
+                            <li>
+                              Source of Funds:
+                            </li>
+                            <li>
+                              1. Bank Statement 2. Pay Slip
+                            </li>
+                          </ul>
+                          <p>
+                            <b>
+                              Note: 
+                            </b>
+                            Limit for Level 3 customers
+                          </p>
+                          <ul>
+                            <li>
+                               upto $2,000 per transaction
+                            </li>
+                            <li>
+                              upto $3,000 per day
+                            </li>
+                            <li>
+                              upto $6,000 per 15 days
+                            </li>
+                            <li>
+                              upto $10,000 per 30 days
+                            </li>
+                            <li>
+                              upto $30,000 per 6 months
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>,
+  <footer
+    className="footer-section text-center"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-12"
+        >
+          <div
+            className="foot-nav"
+          >
+            <a
+              aria-current="page"
+              className="link active"
+              href="/"
+              onClick={[Function]}
+              style={Object {}}
+            >
+              Home
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/about-us"
+              onClick={[Function]}
+            >
+              About Us
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/terms-of-service"
+              onClick={[Function]}
+            >
+              Terms
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/privacy-policy"
+              onClick={[Function]}
+            >
+              Privacy Policy
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/copyright"
+              onClick={[Function]}
+            >
+              Copyright
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/contact-us"
+              onClick={[Function]}
+            >
+              Contact
+            </a>
+          </div>
+        </div>
+        <div
+          className="copyright col-sm-12"
+        >
+          <p>
+            © Golden Money Transfer Inc. 2020. All Rights Reserved.
+             
+            <b>
+              Licensed by
+            </b>
+             Department of Financial Institutions, Nevada
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>,
+  <div
+    className="disclaimer text-center"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="policy"
+      >
+         
+        This website uses cookies to ensure you get the best experience on our website, as described in our
+         
+        <span
+          className="btn-link"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+           
+            privacy policy.
+        </span>
+      </div>
+      <div
+        className="policy1"
+      >
+        This website uses cookies,
+        <span
+          className="btn-link"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+           
+            learn more.
+        </span>
+      </div>
+      <div
+        className="buttonDiv"
+      >
+        <button
+          className="btn-outline-warning"
+          onClick={[Function]}
+          style={
+            Object {
+              "border": "none",
+              "borderRadius": "50px",
+              "color": "black",
+              "padding": "5px 15px",
+            }
+          }
+        >
+          Accept
+        </button>
+      </div>
+    </div>
+  </div>,
+]
+`;

@@ -1,0 +1,34 @@
+/* .choose-country{
+    border:1px solid rgb(226, 226, 226);
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+
+.country-search
+{
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    font-size: x-large;
+
+}
+
+.searchList{
+    border: 1 solid black;
+}
+
+.backgroundImg-welcome{
+    background-image: url(../../assets/images/backGroundImg.png);
+}
+
+::placeholder{
+    color:black;
+    opacity: 1;
+} */

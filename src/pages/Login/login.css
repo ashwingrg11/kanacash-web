@@ -1,0 +1,21 @@
+.forget-signup-button{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.signup-button-login{
+    border: none;
+    background-color: transparent;
+    color:#1077BE ;
+    font-weight: bold;
+}
+.signup-button-login:hover{
+    color:#0e3c65 ;
+}
+.forgetpassword-button{
+    color: #828282;
+}
+.forgetpassword-button:hover{
+    color: #6c757d;
+}

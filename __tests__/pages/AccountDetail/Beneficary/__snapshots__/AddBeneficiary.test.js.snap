@@ -1,0 +1,731 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddBeneficiary /> AddBeneficiary renders correctly 1`] = `
+Array [
+  <header
+    className="header-main"
+  >
+    <div
+      className="container"
+    >
+      <nav
+        className="navbar navbar-expand-lg navbar-light bg-light"
+      >
+        <div
+          className="navbar-brand"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+          <img
+            alt="logo"
+            className="logo"
+            src=""
+          />
+        </div>
+        <button
+          aria-controls="basic-navbar-nav"
+          aria-label="Toggle navigation"
+          className="navbar-toggler collapsed"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="navbar-toggler-icon"
+          />
+        </button>
+        <div
+          aria-expanded={null}
+          className="navbar-collapse collapse"
+          id="basic-navbar-nav"
+        >
+          <div
+            className="ml-md-auto navbar-nav"
+            onKeyDown={[Function]}
+          >
+            <span
+              className="btn btn-primary btn-theme btn-primary-border"
+              onClick={[Function]}
+            >
+              Sign in
+            </span>
+            <button
+              className="btn btn-primary btn-theme btn-primary-theme"
+              onClick={[Function]}
+            >
+              Sign up
+            </button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>,
+  <div
+    className="shadow-line"
+  />,
+  <section
+    className="admin-wrapper"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col"
+        >
+          <h2
+            className="account-title"
+          >
+            My Account
+          </h2>
+          <p>
+            Everything we know about you.
+          </p>
+          <div
+            className="admin-content row"
+          >
+            <div
+              className="col-xl-3 col-lg-4 col-md-5 col-sm-12"
+            >
+              <ul
+                className="sidebar-menu"
+              >
+                <li>
+                  <div
+                    className="d-flex align-items-center"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#1077BE",
+                        "cursor": "pointer",
+                        "fontSize": "16px",
+                        "fontWeight": "bold",
+                        "marginBottom": "10px",
+                      }
+                    }
+                  >
+                     
+                    <img
+                      alt="activeImg"
+                      src=""
+                      style={
+                        Object {
+                          "marginRight": "10px",
+                          "paddingBottom": "3px",
+                        }
+                      }
+                    />
+                    Profile
+                  </div>
+                </li>
+                <li>
+                  <div
+                    className="d-flex align-items-center"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#4F4F4F",
+                        "cursor": "pointer",
+                        "fontSize": "16px",
+                        "fontWeight": "bold",
+                        "marginBottom": "10px",
+                      }
+                    }
+                  >
+                     
+                    <img
+                      alt="img"
+                      src=""
+                      style={
+                        Object {
+                          "marginRight": "10px",
+                          "paddingBottom": "3px",
+                        }
+                      }
+                    />
+                    Beneficiary
+                  </div>
+                </li>
+                <li>
+                  <div
+                    className="d-flex align-items-center"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#4F4F4F",
+                        "cursor": "pointer",
+                        "fontSize": "16px",
+                        "fontWeight": "bold",
+                        "marginBottom": "10px",
+                      }
+                    }
+                  >
+                     
+                    <img
+                      alt="img"
+                      src=""
+                      style={
+                        Object {
+                          "marginRight": "10px",
+                          "paddingBottom": "3px",
+                        }
+                      }
+                    />
+                    Bank Accounts
+                  </div>
+                </li>
+                <li>
+                  <div
+                    className="d-flex align-items-center"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#4F4F4F",
+                        "cursor": "pointer",
+                        "fontSize": "16px",
+                        "fontWeight": "bold",
+                        "marginBottom": "10px",
+                      }
+                    }
+                  >
+                     
+                    <img
+                      alt="img"
+                      src=""
+                      style={
+                        Object {
+                          "marginRight": "10px",
+                          "paddingBottom": "3px",
+                        }
+                      }
+                    />
+                    Debit Cards
+                  </div>
+                </li>
+                <li>
+                  <div
+                    className="d-flex align-items-center"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#4F4F4F",
+                        "cursor": "pointer",
+                        "fontSize": "16px",
+                        "fontWeight": "bold",
+                        "marginBottom": "10px",
+                      }
+                    }
+                  >
+                     
+                    <img
+                      alt="img"
+                      src=""
+                      style={
+                        Object {
+                          "marginRight": "10px",
+                          "paddingBottom": "3px",
+                        }
+                      }
+                    />
+                    Transactions
+                  </div>
+                </li>
+                <li>
+                  <div
+                    className="d-flex align-items-center"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#4F4F4F",
+                        "cursor": "pointer",
+                        "fontSize": "16px",
+                        "fontWeight": "bold",
+                        "marginBottom": "10px",
+                      }
+                    }
+                  >
+                     
+                    <img
+                      alt="img"
+                      src=""
+                      style={
+                        Object {
+                          "marginRight": "10px",
+                          "paddingBottom": "3px",
+                        }
+                      }
+                    />
+                    Transaction Limit
+                  </div>
+                </li>
+                <li>
+                  <div
+                    className="d-flex align-items-center"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#4F4F4F",
+                        "cursor": "pointer",
+                        "fontSize": "16px",
+                        "fontWeight": "bold",
+                        "marginBottom": "10px",
+                      }
+                    }
+                  >
+                     
+                    <img
+                      alt="img"
+                      src=""
+                      style={
+                        Object {
+                          "marginRight": "10px",
+                          "paddingBottom": "3px",
+                        }
+                      }
+                    />
+                    Settings
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="col-xl-9 col-lg-8 col-md-7 col-sm-12"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="activity-title mb-2 col"
+                >
+                  New Beneficiary
+                </div>
+              </div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col"
+                >
+                  <div
+                    className="payment-block-wrap"
+                  >
+                    <h3
+                      className="subhead-title"
+                    >
+                      Please Add a new Beneficiary
+                    </h3>
+                    <div
+                      className="row"
+                    >
+                      <div
+                        className="theme-form col"
+                      >
+                        <form
+                          className=""
+                          noValidate={true}
+                          onSubmit={[Function]}
+                        >
+                          <div
+                            className="form-row"
+                          >
+                            <div
+                              className="col-md-4 form-group"
+                            >
+                              <label
+                                className="form-label"
+                              >
+                                First Name
+                              </label>
+                              <input
+                                className="form-control"
+                                name="firstName"
+                                onBlurCapture={[Function]}
+                                onChange={[Function]}
+                                placeholder="First Name "
+                                type="text"
+                                value=""
+                              />
+                            </div>
+                            <div
+                              className="col-md-4 form-group"
+                            >
+                              <label
+                                className="form-label"
+                              >
+                                Middle Name
+                              </label>
+                              <input
+                                className="form-control"
+                                name="middleName"
+                                onBlurCapture={[Function]}
+                                onChange={[Function]}
+                                placeholder="Middle Name "
+                                type="text"
+                                value=""
+                              />
+                            </div>
+                            <div
+                              className="col-md-4 form-group"
+                            >
+                              <label
+                                className="form-label"
+                              >
+                                Last Name
+                              </label>
+                              <input
+                                className="form-control"
+                                name="lastName"
+                                onBlurCapture={[Function]}
+                                onChange={[Function]}
+                                placeholder="Last Name"
+                                type="text"
+                                value=""
+                              />
+                            </div>
+                          </div>
+                          <div
+                            className="form-row"
+                          >
+                            <div
+                              className="form-group col-md-12"
+                            >
+                              <label
+                                className="form-label"
+                              >
+                                Address Line
+                              </label>
+                              <input
+                                className="form-control"
+                                name="addressLine1"
+                                onBlurCapture={[Function]}
+                                onChange={[Function]}
+                                placeholder="Address Line"
+                                type="text"
+                                value=""
+                              />
+                            </div>
+                          </div>
+                          <div
+                            className="form-row"
+                          >
+                            <div
+                              className="col-md-6 form-group"
+                            >
+                              <label
+                                className="form-label"
+                              >
+                                Country
+                              </label>
+                              <select
+                                className="form-control"
+                                name="country"
+                                onBlurCapture={[Function]}
+                                onChange={[Function]}
+                                placeholder="Select Country"
+                                value=""
+                              >
+                                <option
+                                  value=""
+                                >
+                                  Select Country
+                                </option>
+                              </select>
+                            </div>
+                            <div
+                              className="col-md-6 form-group"
+                            >
+                              <label
+                                className="form-label"
+                              >
+                                State
+                              </label>
+                              <select
+                                className="form-control"
+                                name="state"
+                                onBlurCapture={[Function]}
+                                onChange={[Function]}
+                                value=""
+                              >
+                                <option
+                                  value=""
+                                >
+                                  Select State
+                                </option>
+                              </select>
+                            </div>
+                          </div>
+                          <div
+                            className="form-row"
+                          >
+                            <div
+                              className="col-md-6 form-group"
+                            >
+                              <label
+                                className="form-label"
+                              >
+                                City
+                              </label>
+                              <input
+                                className="form-control"
+                                name="city"
+                                onBlurCapture={[Function]}
+                                onChange={[Function]}
+                                placeholder="City"
+                                type="text"
+                                value=""
+                              />
+                            </div>
+                            <div
+                              className="col-md-6 form-group"
+                            >
+                              <label
+                                className="form-label"
+                              >
+                                Postal Code
+                              </label>
+                              <input
+                                className="form-control"
+                                name="postalCode"
+                                onBlurCapture={[Function]}
+                                onChange={[Function]}
+                                onInput={[Function]}
+                                placeholder="Postal Code"
+                                type="number"
+                                value=""
+                              />
+                            </div>
+                          </div>
+                          <div
+                            className="form-row"
+                          >
+                            <div
+                              className="form-group col"
+                            >
+                              <label
+                                className="form-label"
+                              >
+                                 
+                                Phone number of the Beneficary
+                                 
+                              </label>
+                              <div
+                                className="row"
+                              >
+                                <div
+                                  className="col-md-3"
+                                >
+                                  <select
+                                    className="form-control"
+                                    name="zip"
+                                    onBlurCapture={[Function]}
+                                    onChange={[Function]}
+                                    value="+234"
+                                  >
+                                    <option
+                                      value="+234"
+                                    >
+                                      +234
+                                    </option>
+                                  </select>
+                                </div>
+                                <div
+                                  className="col"
+                                >
+                                  <input
+                                    className="form-control"
+                                    name="phoneNumber"
+                                    onBlurCapture={[Function]}
+                                    onChange={[Function]}
+                                    onInput={[Function]}
+                                    placeholder="Enter Beneficiary's Phone Number"
+                                    type="number"
+                                    value=""
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            className="button-group"
+                          >
+                            <button
+                              className="bt btn-secondary btn-secondary-big btn btn-primary"
+                              disabled={false}
+                              type="submit"
+                            >
+                              Click To Continue
+                            </button>
+                            <button
+                              className="btn btn-back-arrow float-right"
+                              onClick={[Function]}
+                            >
+                              <img
+                                alt="BackArrow"
+                                src=""
+                              />
+                              Back
+                               
+                            </button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>,
+  <footer
+    className="footer-section text-center"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-12"
+        >
+          <div
+            className="foot-nav"
+          >
+            <a
+              aria-current="page"
+              className="link active"
+              href="/"
+              onClick={[Function]}
+              style={Object {}}
+            >
+              Home
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/about-us"
+              onClick={[Function]}
+            >
+              About Us
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/terms-of-service"
+              onClick={[Function]}
+            >
+              Terms
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/privacy-policy"
+              onClick={[Function]}
+            >
+              Privacy Policy
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/copyright"
+              onClick={[Function]}
+            >
+              Copyright
+            </a>
+            <a
+              aria-current={null}
+              className="link"
+              href="/contact-us"
+              onClick={[Function]}
+            >
+              Contact
+            </a>
+          </div>
+        </div>
+        <div
+          className="copyright col-sm-12"
+        >
+          <p>
+            © Golden Money Transfer Inc. 2020. All Rights Reserved.
+             
+            <b>
+              Licensed by
+            </b>
+             Department of Financial Institutions, Nevada
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>,
+  <div
+    className="disclaimer text-center"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="policy"
+      >
+         
+        This website uses cookies to ensure you get the best experience on our website, as described in our
+         
+        <span
+          className="btn-link"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+           
+            privacy policy.
+        </span>
+      </div>
+      <div
+        className="policy1"
+      >
+        This website uses cookies,
+        <span
+          className="btn-link"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+           
+            learn more.
+        </span>
+      </div>
+      <div
+        className="buttonDiv"
+      >
+        <button
+          className="btn-outline-warning"
+          onClick={[Function]}
+          style={
+            Object {
+              "border": "none",
+              "borderRadius": "50px",
+              "color": "black",
+              "padding": "5px 15px",
+            }
+          }
+        >
+          Accept
+        </button>
+      </div>
+    </div>
+  </div>,
+]
+`;
